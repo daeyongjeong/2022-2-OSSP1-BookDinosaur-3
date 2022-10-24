@@ -1,0 +1,64 @@
+.Report-area {
+    /* display: flex;
+    display: block; */
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    padding: 0 20px;
+    /* align-items: center; */
+}
+.report-box {
+    float: left;
+    /* display: flex; */
+    display: inline-block;
+    flex-direction: column;
+    width: 250px;
+    /* width: 300px; */
+    height: 350px;
+    border: 1px solid #a9a9a9;
+    border-radius: 14px;
+    margin: 10px;
+    background: #f7f7f7;
+}
+.report-box .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:120px;
+    border-bottom: 1px solid #000;
+}
+.report-box .title > p {
+    margin:0;
+    padding:0 10px;
+}
+.report-box .title p.centerBookTitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+}
+.report-box .title p.centerReportTitle {
+    font-size: 20px;
+    text-align: center;
+}
+.report-box .title p.nickName {
+    font-size: 20px;
+    text-align: right;
+}
+.report-box .title p.date {
+    font-size: 8px;
+    color: #939393;
+    text-align: right;
+}
+.report-box .title .book-info > label:first-child{
+    font-weight: bold;
+}
+.report-box .bookContent{
+    height: 54%;
+    padding: 10px 10px 0px 10px;
+    overflow-y: auto;
+    text-align: center;
+} 

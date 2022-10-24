@@ -1,0 +1,54 @@
+.Recommend-area {
+    display: flex;
+    /*display: block; */
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    padding: 0 20px;
+    /* align-items: center; */
+}
+.recommend-box {
+    float: left;
+    display: flex;
+    /* display: inline-block; */
+    flex-direction: column;
+    width: 250px;
+    /* width: 300px; */
+    height: 350px;
+    border: 1px solid #a9a9a9;
+    border-radius: 14px;
+    margin: 10px;
+    background: #f7f7f7;
+}
+.recommend-box .title {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    height:140px;
+    border-bottom: 1px solid #000;
+}
+.recommend-box .title > p {
+    margin:0;
+    padding:0 10px;
+}
+.recommend-box .title p.centerBookTitle {
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    /* display: flex; */
+    width: 90%;
+    font-size: 15px;
+    text-align: center;
+}
+.recommend-box .title .book-info > label:first-child{
+    display: flex;
+    height: 20%;
+    font-weight: bold;
+}
+.recommend-box .bookContent{
+    height: 55%;
+    padding: 10px 10px 0px 10px;
+    overflow-y: auto;
+    text-align: center;
+}
